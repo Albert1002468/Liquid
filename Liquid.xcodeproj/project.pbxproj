@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0D540827BD7EC60020B033 /* Login_SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D540727BD7EC60020B033 /* Login_SignupView.swift */; };
+		8F0D540927BD7EC60020B033 /* Login_SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D540727BD7EC60020B033 /* Login_SignupView.swift */; };
+		8F31F33127BECBFC00D0D119 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8F31F33027BECBFC00D0D119 /* FirebaseAuth */; };
+		8F31F33427BECF6700D0D119 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8F31F33327BECF6700D0D119 /* GoogleSignIn */; };
+		8F31F33627BED0DA00D0D119 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F31F33527BED0D900D0D119 /* GoogleService-Info.plist */; };
+		8F31F33727BED0DA00D0D119 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F31F33527BED0D900D0D119 /* GoogleService-Info.plist */; };
 		8F680F0927B842A800889838 /* Liquid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F680EF627B842A600889838 /* Liquid.xcdatamodeld */; };
 		8F680F0A27B842A800889838 /* Liquid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F680EF627B842A600889838 /* Liquid.xcdatamodeld */; };
 		8F680F0B27B842A800889838 /* LiquidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F680EF827B842A600889838 /* LiquidApp.swift */; };
@@ -17,9 +23,20 @@
 		8F680F1027B842A800889838 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F680EFA27B842A600889838 /* Persistence.swift */; };
 		8F680F1127B842A800889838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F680EFB27B842A800889838 /* Assets.xcassets */; };
 		8F680F1227B842A800889838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F680EFB27B842A800889838 /* Assets.xcassets */; };
+		8F680F1C27B8440400889838 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F680F1B27B8440400889838 /* Launch Screen.storyboard */; };
+		8FE05BAB27B8CF02002B4DBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BAA27B8CF02002B4DBA /* HomeView.swift */; };
+		8FE05BAC27B8CF02002B4DBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BAA27B8CF02002B4DBA /* HomeView.swift */; };
+		8FE05BAE27B8CF12002B4DBA /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BAD27B8CF12002B4DBA /* JournalView.swift */; };
+		8FE05BAF27B8CF12002B4DBA /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BAD27B8CF12002B4DBA /* JournalView.swift */; };
+		8FE05BB127B8CF21002B4DBA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BB027B8CF21002B4DBA /* SettingsView.swift */; };
+		8FE05BB227B8CF21002B4DBA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE05BB027B8CF21002B4DBA /* SettingsView.swift */; };
+		8FEA84E527BF78D90090B10C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA84E427BF78D90090B10C /* ResetPasswordView.swift */; };
+		8FEA84E627BF78D90090B10C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA84E427BF78D90090B10C /* ResetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F0D540727BD7EC60020B033 /* Login_SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_SignupView.swift; sourceTree = "<group>"; };
+		8F31F33527BED0D900D0D119 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F680EF727B842A600889838 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		8F680EF827B842A600889838 /* LiquidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidApp.swift; sourceTree = "<group>"; };
 		8F680EF927B842A600889838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +45,12 @@
 		8F680F0027B842A800889838 /* Liquid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liquid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F680F0627B842A800889838 /* Liquid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liquid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F680F0827B842A800889838 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8F680F1B27B8440400889838 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8FE05BAA27B8CF02002B4DBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8FE05BAD27B8CF12002B4DBA /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		8FE05BB027B8CF21002B4DBA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8FEA84E427BF78D90090B10C /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		8FEEDD4E27BE340A00E2ED4A /* Liquid (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Liquid (iOS).entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F31F33127BECBFC00D0D119 /* FirebaseAuth in Frameworks */,
+				8F31F33427BECF6700D0D119 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +76,9 @@
 		8F680EF027B842A600889838 = {
 			isa = PBXGroup;
 			children = (
+				8F31F33527BED0D900D0D119 /* GoogleService-Info.plist */,
+				8FEEDD4E27BE340A00E2ED4A /* Liquid (iOS).entitlements */,
+				8F680F1B27B8440400889838 /* Launch Screen.storyboard */,
 				8F680EF527B842A600889838 /* Shared */,
 				8F680F0727B842A800889838 /* macOS */,
 				8F680F0127B842A800889838 /* Products */,
@@ -65,6 +93,11 @@
 				8F680EFA27B842A600889838 /* Persistence.swift */,
 				8F680EFB27B842A800889838 /* Assets.xcassets */,
 				8F680EF627B842A600889838 /* Liquid.xcdatamodeld */,
+				8FE05BAA27B8CF02002B4DBA /* HomeView.swift */,
+				8FE05BAD27B8CF12002B4DBA /* JournalView.swift */,
+				8FE05BB027B8CF21002B4DBA /* SettingsView.swift */,
+				8F0D540727BD7EC60020B033 /* Login_SignupView.swift */,
+				8FEA84E427BF78D90090B10C /* ResetPasswordView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -102,6 +135,10 @@
 			dependencies = (
 			);
 			name = "Liquid (iOS)";
+			packageProductDependencies = (
+				8F31F33027BECBFC00D0D119 /* FirebaseAuth */,
+				8F31F33327BECF6700D0D119 /* GoogleSignIn */,
+			);
 			productName = "Liquid (iOS)";
 			productReference = 8F680F0027B842A800889838 /* Liquid.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +187,10 @@
 				Base,
 			);
 			mainGroup = 8F680EF027B842A600889838;
+			packageReferences = (
+				8F31F32F27BECBFC00D0D119 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8F31F33227BECF6700D0D119 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */,
+			);
 			productRefGroup = 8F680F0127B842A800889838 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F680F1C27B8440400889838 /* Launch Screen.storyboard in Resources */,
+				8F31F33627BED0DA00D0D119 /* GoogleService-Info.plist in Resources */,
 				8F680F1127B842A800889838 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F680F1227B842A800889838 /* Assets.xcassets in Resources */,
+				8F31F33727BED0DA00D0D119 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE05BB127B8CF21002B4DBA /* SettingsView.swift in Sources */,
+				8FE05BAE27B8CF12002B4DBA /* JournalView.swift in Sources */,
 				8F680F0927B842A800889838 /* Liquid.xcdatamodeld in Sources */,
+				8FEA84E527BF78D90090B10C /* ResetPasswordView.swift in Sources */,
 				8F680F0F27B842A800889838 /* Persistence.swift in Sources */,
 				8F680F0B27B842A800889838 /* LiquidApp.swift in Sources */,
+				8FE05BAB27B8CF02002B4DBA /* HomeView.swift in Sources */,
+				8F0D540827BD7EC60020B033 /* Login_SignupView.swift in Sources */,
 				8F680F0D27B842A800889838 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE05BB227B8CF21002B4DBA /* SettingsView.swift in Sources */,
+				8FE05BAF27B8CF12002B4DBA /* JournalView.swift in Sources */,
 				8F680F0A27B842A800889838 /* Liquid.xcdatamodeld in Sources */,
+				8FEA84E627BF78D90090B10C /* ResetPasswordView.swift in Sources */,
 				8F680F1027B842A800889838 /* Persistence.swift in Sources */,
 				8F680F0C27B842A800889838 /* LiquidApp.swift in Sources */,
+				8FE05BAC27B8CF02002B4DBA /* HomeView.swift in Sources */,
+				8F0D540927BD7EC60020B033 /* Login_SignupView.swift in Sources */,
 				8F680F0E27B842A800889838 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +310,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -309,6 +365,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -321,14 +379,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Liquid (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27TP6PG8AZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Liquid--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -339,6 +401,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Albert-Dominguez.Liquid";
 				PRODUCT_NAME = Liquid;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,14 +414,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Liquid (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27TP6PG8AZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Liquid--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -369,6 +436,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Albert-Dominguez.Liquid";
 				PRODUCT_NAME = Liquid;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -383,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Albert-Dominguez.Liquid";
 				PRODUCT_NAME = Liquid;
@@ -411,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -423,7 +493,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Albert-Dominguez.Liquid";
 				PRODUCT_NAME = Liquid;
@@ -464,6 +534,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F31F32F27BECBFC00D0D119 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		8F31F33227BECF6700D0D119 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignin-IOS/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F31F33027BECBFC00D0D119 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F31F32F27BECBFC00D0D119 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8F31F33327BECF6700D0D119 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F31F33227BECF6700D0D119 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8F680EF627B842A600889838 /* Liquid.xcdatamodeld */ = {
